@@ -1,0 +1,11 @@
+
+
+/* About Page CSS */
+
+  #headshot {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 8px #f2849e;
+  }
