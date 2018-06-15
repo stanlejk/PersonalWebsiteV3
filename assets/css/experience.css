@@ -1,0 +1,15 @@
+
+/* Experience Page CSS */
+
+  .expLink {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+  }
+
+  .expLink .expLogo {
+    width: 350px;
+    display: block;
+  }
