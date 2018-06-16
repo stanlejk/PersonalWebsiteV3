@@ -6,3 +6,11 @@
 #blackJackArticle:hover {
   color: white;
 }
+
+.githubLink:hover, .devpostLink:hover {
+  text-decoration: none;
+}
+
+.cardTitle {
+  color: #FFFFFF;
+}

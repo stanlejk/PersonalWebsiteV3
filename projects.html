@@ -4,6 +4,7 @@
 		<title>Stanley J. Kim</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/bootstrap.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/projects.css" />
 	</head>
@@ -55,8 +56,8 @@
 									<span class="image">
 										<img src="images/airhawkeylogo.png" alt="" />
 									</span>
-									<a href="https://drive.google.com/file/d/0B0ecwHzZdN2QM1VNNlNnZVY0aXc/view?usp=sharing" target="_blank">
-										<h2>AirHawkey</h2>
+									<a data-toggle="modal" href="#airhawkeyModal" target="_blank">
+										<h2 class="cardTitle">AirHawkey</h2>
 										<div class="content">
 											<p>CitrusHacks 2018</p>
 										</div>
@@ -67,8 +68,8 @@
 									<span class="image">
 										<img src="images/reassuronlogo.png" alt="" />
 									</span>
-									<a href="experience.html">
-										<h2>Reassuron</h2>
+									<a data-toggle="modal" href="#reassuronModal" target="_blank">
+										<h2 class="cardTitle">Reassuron</h2>
 										<div class="content">
 											<p>LAHacks 2018</p>
 										</div>
@@ -79,8 +80,8 @@
 									<span class="image">
 										<img src="images/scollagelogo.jpg" alt="" />
 									</span>
-                  <a href="about.html">
-                    <h2>SCollage</h2>
+                  <a data-toggle="modal" href="#scollageModal" target="_blank">
+                    <h2 class="cardTitle">SCollage</h2>
                     <div class="content">
                       <p>CSCI 310 Group Project</p>
                     </div>
@@ -91,8 +92,8 @@
 									<span class="image">
 										<img src="images/msllogo.png" alt="" />
 									</span>
-									<a href="about.html">
-										<h2>Marvel Super Languages</h2>
+									<a data-toggle="modal" href="#mslModal" target="_blank">
+										<h2 class="cardTitle">Marvel Super Languages</h2>
 										<div class="content">
 											<p>HackTech 2018 | MLH Best Design Award</p>
 										</div>
@@ -103,8 +104,8 @@
 									<span class="image">
 										<img src="images/schedulerlogo.png" alt="" />
 									</span>
-                  <a href="about.html">
-                    <h2>SCheduler</h2>
+                  <a data-toggle="modal" href="#schedulerModal" target="_blank">
+                    <h2 class="cardTitle">SCheduler</h2>
                     <div class="content">
                       <p>CSCI 201 Final Project</p>
                     </div>
@@ -115,8 +116,8 @@
                   <span class="image">
                     <img src="images/blackjacklogo.jpg" alt="" />
                   </span>
-                  <a href="projects.html">
-                    <h2>BlackJack!</h2>
+                  <a data-toggle="modal" href="#blackjackModal" target="_blank">
+                    <h2 class="cardTitle">BlackJack!</h2>
                     <div class="content">
                       <p>CSCI 201 Project</p>
                     </div>
@@ -125,6 +126,124 @@
 							</section>
 
 						</div>
+					</div>
+
+					<!-- Project Modals (Hidden on Load) -->
+					<div class="modal fade" id="airhawkeyModal" tabindex="-1" role="dialog" aria-labelledby="airhawkeyModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="airhawkeyModalLabel">AirHawkey</h5>
+					        <button type="button" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        ...
+					      </div>
+					      <div class="modal-footer">
+									<a href="https://devpost.com/software/airhawkey" class="button devpostLink" target="_blank">Devpost</a>
+									<a href="https://github.com/stanlejk/airhawkey" class="button githubLink" target="_blank">View on GitHub</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="modal fade" id="reassuronModal" tabindex="-1" role="dialog" aria-labelledby="reassuronModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="reassuronModalLabel">Reassuron</h5>
+					        <button type="button" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        ...
+					      </div>
+					      <div class="modal-footer">
+									<a href="https://devpost.com/software/reassuro" class="button devpostLink" target="_blank">Devpost</a>
+									<a href="https://github.com/ifvictr/lahacks2018" class="button githubLink" target="_blank">View on GitHub</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="modal fade" id="scollageModal" tabindex="-1" role="dialog" aria-labelledby="scollageModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="scollageModalLabel">SCollage</h5>
+					        <button type="button" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        ...
+					      </div>
+					      <div class="modal-footer">
+									<a href="https://github.com/akshayr98/CS310-ProjectOne" class="button githubLink" target="_blank">View on GitHub</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="modal fade" id="mslModal" tabindex="-1" role="dialog" aria-labelledby="mslModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="mslModalLabel">Marvel Super Languages</h5>
+					        <button type="button" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        ...
+					      </div>
+					      <div class="modal-footer">
+									<a href="https://devpost.com/software/marvel-super-language" class="button devpostLink" target="_blank">Devpost</a>
+									<a href="https://github.com/stanlejk/Hacktech2018" class="button githubLink" target="_blank">View on GitHub</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="modal fade" id="schedulerModal" tabindex="-1" role="dialog" aria-labelledby="schedulerModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="schedulerModalLabel">SCheduler</h5>
+					        <button type="button" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        ...
+					      </div>
+					      <div class="modal-footer">
+									<a href="https://github.com/psyhogeos/SCheduler" class="button githubLink" target="_blank">View on GitHub</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="modal fade" id="blackjackModal" tabindex="-1" role="dialog" aria-labelledby="blackjackModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="blackjackModalLabel">BlackJack!</h5>
+					        <button type="button" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        ...
+					      </div>
+					      <div class="modal-footer">
+									<a href="https://github.com/stanlejk" class="button githubLink" target="_blank">View on GitHub</a>
+					      </div>
+					    </div>
+					  </div>
 					</div>
 
 				<!-- Footer -->
@@ -144,6 +263,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/bootstrap.js"></script>
 
 	</body>
 </html>
