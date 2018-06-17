@@ -14,3 +14,11 @@
 .cardTitle {
   color: #FFFFFF;
 }
+
+.modal-body {
+  font-size: 14px;
+}
+
+.modal-title {
+  font-size: 28px;
+}
