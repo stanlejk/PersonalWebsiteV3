@@ -1,12 +1,4 @@
 
-#blackJackArticle {
-  color: grey;
-}
-
-#blackJackArticle:hover {
-  color: white;
-}
-
 .githubLink:hover, .devpostLink:hover {
   text-decoration: none;
 }
@@ -21,4 +13,25 @@
 
 .modal-title {
   font-size: 28px;
+}
+
+h1 {
+  color: #585858;
+  text-transform: none;
+}
+
+nav h2 {
+    color: #FFFFFF;
+}
+
+.tiles article {
+    width: calc(33.33333% - 2.5em);
+}
+
+@media screen and (max-width: 1280px) {
+
+        .tiles article {
+            width: calc(33.33333% - 1.25em);
+        }
+
 }
