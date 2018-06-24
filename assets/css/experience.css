@@ -12,4 +12,5 @@
   .expLink .expLogo {
     width: 350px;
     display: block;
+    box-shadow: 4px 8px #f2849e;
   }
