@@ -24,6 +24,11 @@ nav h2 {
     color: #FFFFFF;
 }
 
+nav ul li a {
+    text-decoration: none;
+}
+
+
 .tiles article {
     width: calc(33.33333% - 2.5em);
 }

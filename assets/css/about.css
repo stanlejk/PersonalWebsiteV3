@@ -2,6 +2,10 @@
 
 /* About Page CSS */
 
+  nav ul li a {
+    text-decoration: none;
+  }
+
   #headshot {
     width: 300px;
     display: block;

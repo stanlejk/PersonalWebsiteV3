@@ -1,6 +1,10 @@
 
 /* Experience Page CSS */
 
+  nav ul li a {
+    text-decoration: none;
+  }
+
   .expLink {
     width: 350px;
     display: block;

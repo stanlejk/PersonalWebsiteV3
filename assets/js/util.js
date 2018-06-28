@@ -11,7 +11,7 @@
 			b = [];
 
 		$a.each(function() {
-
+			console.log('hello');
 			var	$this = $(this),
 				indent = Math.max(0, $this.parents('li').length - 1),
 				href = $this.attr('href'),
@@ -149,6 +149,8 @@
 					$this
 						.on('click', 'a', function(event) {
 
+							console.log('hello!!');
+
 							var $a = $(this),
 								href = $a.attr('href'),
 								target = $a.attr('target');
@@ -165,6 +167,7 @@
 
 							// Redirect to href.
 								window.setTimeout(function() {
+									console.log('hello!!!!!');
 
 									if (target == '_blank')
 										window.open(href);
