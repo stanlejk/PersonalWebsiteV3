@@ -152,7 +152,8 @@
 				})
 				.on('click', 'a', function(event) {
 
-					var href = $(this).attr('href');
+					var href = $(this).attr('href')
+					var target = $(this).attr('target');
 
 					event.preventDefault();
 					event.stopPropagation();
@@ -165,7 +166,12 @@
 							return;
 
 						window.setTimeout(function() {
-							window.location.href = href;
+							if (typeof target !== 'undefined' && target != '') {
+								window.open(href, target);
+							}
+							else {
+								window.location.href = href;
+							}
 						}, 350);
 
 				})
