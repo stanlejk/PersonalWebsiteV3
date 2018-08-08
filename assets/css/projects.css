@@ -34,9 +34,29 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 1280px) {
-
         .tiles article {
             width: calc(33.33333% - 1.25em);
+            margin: 1.25em 0 0 1.25em;
         }
+}
 
+@media screen and (max-width: 980px) {
+        .tiles article {
+            width: calc(50% - 2.5em);
+            margin: 2.5em 0 0 2.5em;
+        }
+}
+
+@media screen and (max-width: 736px) {
+        .tiles article {
+            width: calc(50% - 1.25em);
+            margin: 1.25em 0 0 1.25em;
+        }
+}
+
+@media screen and (max-width: 480px) {
+        .tiles article {
+            width: 100%;
+            margin: 1.25em 0 0 0;
+        }
 }
