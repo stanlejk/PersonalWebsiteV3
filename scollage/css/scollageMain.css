@@ -1,0 +1,319 @@
+html, body {
+	font-family: 'Inconsolata', monospace;
+}
+
+#header {
+	-webkit-animation: fadein 2s linear forwards;
+    animation: fadein 2s linear forwards;
+    color: white;
+    text-shadow: 3px 2px #5bc0de;
+    font-size: 50px;
+	/* Flex stuff */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#logOutBtn {
+	position: relative;
+	cursor: pointer;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#container {
+	/* Flex stuff */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#maxSizeCollageContainer {
+	height: 500px;
+	width: 500px;
+
+	/* Flex stuff */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#collageDisplay {
+	height: 500px;
+	width: 500px;
+	border: 2px solid black;
+
+	/* Flex stuff */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#collageImage {
+	width: inherit;
+	height: inherit;
+}
+
+#collageContainer {
+	/* Flex stuff */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#topContainer {
+	top: 0px;
+	width: 100%;
+	height: 15%;
+	background-color: #17a2b8;
+	padding-bottom: 15px;
+}
+
+#leftContainer {
+	display: none;
+	box-sizing: border-box;
+	padding: 50px;
+	height: 450px;
+	width: 420px;
+	/* Flex stuff */
+	display: block;
+}
+
+
+#collageOptionsBtn {
+	cursor: pointer;
+	width: 60%;
+	height: 10%
+	box-sizing: border-box;
+	margin-left: 25%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#buildCollageBtn {
+	cursor: pointer;
+	width: 60%;
+	height: 30%;
+	box-sizing: border-box;
+	margin-left: 25%;
+	margin-top: 10px;
+}
+
+.optionsMenu{
+	display: none;
+}
+
+.optionsMenuShown {
+	-webkit-animation: fadein 1s linear forwards;
+    animation: fadein 1s linear forwards;
+
+}
+
+.horizRow {
+	/* Flex stuff */
+	display: flex;
+	flex-direction: row;
+}
+
+.horizRow {
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+label {
+    width:80px;
+    clear:left;
+    text-align:left;
+    padding-right: 20px;
+}
+
+input, label {
+    float:left;
+}
+
+#widthSubmit {
+	margin-left: 5px;
+	visibility: hidden;
+}
+
+#heightSubmit {
+	margin-left: 5px;
+	visibility: hidden;
+}
+
+#saveBtns {
+
+	visibility: hidden;
+
+	margin-left: 10%;
+	/* Flex stuff */
+	display: flex;
+	flex-direction: column;
+}
+
+.save {
+	margin-top: 20px;
+}
+
+#galleryContainer {
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	/* Flex stuff */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	overflow: scroll;
+}
+
+#saveToHistoryBtn {
+	cursor: pointer;
+	width: 100%;
+	height: 30%;
+	box-sizing: border-box;
+	margin-top: 10px;
+	justify-content: center;
+}
+
+#exportBtn {
+	cursor: pointer;
+	width: 100%;
+	height: 30%;
+	box-sizing: border-box;
+	margin-left: 25%;
+	margin-top: 20px;
+	justify-content: center;
+}
+
+#logOutBtn {
+	background-color: white;
+	color: black;
+}
+
+.btn:hover {
+	transition: all .2s;
+	transform: scale(1.05);
+}
+
+.btn {
+	background-color: #17a2b8;
+	color: white;
+}
+
+.galleryImages {
+	box-sizing: border-box;
+	padding: 5px;
+
+	width: 100px;
+	height: 100px;
+}
+
+.galleryImages:hover {
+	cursor: pointer;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.loader {
+	border: 16px solid #f3f3f3;
+	border-top: 16px solid #3498db;
+	top: 200px;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	animation: spin 2s linear infinite;
+	z-index: 1;
+	right: 25px;
+	bottom: 0px;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg);}
+	100% { transform: rotate(360deg);}
+}
+
+#wrapper {
+	position: relative;
+}
+
+#filler {
+   	color: #17a2b8;
+}
+
+.fillertext {
+	 font-size: 100px;
+}
+
+#filler_one {
+	-webkit-animation: fadein 2s linear forwards;
+	animation: fadein 1s linear forwards;
+}
+
+#filler_two {
+	color: black;
+	-webkit-animation: fadein 2s linear forwards;
+	animation: fadein 2s linear forwards;
+}
+
+#filler_three{
+	-webkit-animation: fadein 2s linear forwards;
+	animation: fadein 3s linear forwards;
+}
+
+#wrapper {
+	position: relative;
+}
+
+#collageHistoryGalleryContainer {
+	height: 120px;
+	padding-top: 20px;
+	text-align: center;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+#collageHistoryGalleryContainer .collageHistoryImageContainer {
+	height: 100px;
+	width: 100px;
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#collageHistoryGalleryContainer .collageHistoryImageContainer .collageHistoryImage {
+	height: 98px;
+	z-index: 0;
+}
+
+.collageDeleteButton {
+	position: relative;
+	z-index: 1;
+	color: #494949;
+	opacity: 0.5;
+	right: 15px;
+	bottom: 25px;
+	cursor: pointer;
+	width: 0px;
+	font-size: 12pt;
+}
+
+.collageHistoryImageContainer:hover .collageDeleteButton {
+	opacity: 1.0;
+	color: #494949;
+}
+
+.collageHistoryImageContainer .collageDeleteButton:hover {
+	opacity: 1.0;
+	color: red;
+}
