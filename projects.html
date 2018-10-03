@@ -54,6 +54,18 @@
 
 								<article>
 									<span class="image">
+										<img src="images/inProgress.png" alt="" />
+									</span>
+									<a data-toggle="modal" href="#foodHunterModal" target="_blank">
+										<h2 class="cardTitle">FoodHunter</h2>
+										<div class="content">
+											<p>Personal Project</p>
+										</div>
+									</a>
+								</article>
+
+								<article>
+									<span class="image">
 										<img src="images/airhawkeylogo.png" alt="" />
 									</span>
 									<a data-toggle="modal" href="#airhawkeyModal" target="_blank">
@@ -129,6 +141,33 @@
 					</div>
 
 					<!-- Project Modals (Hidden on Load) -->
+					<div class="modal fade" id="foodHunterModal" tabindex="-1" role="dialog" aria-labelledby="foodHunterModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h2 class="modal-title" id="foodHunterModalLabel">FoodHunter</h2>
+									<button type="button" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									FoodHunter is a mobile application I am currently developing in React Native. Utilizing the
+									Yelp Fusion API to query restaurants in the user's area, FoodHunter generates a stack of cards,
+									each with a local restaurant's information. Similar to the way Tinder users swipe right or left
+									on dating profiles, FoodHunter users swipe right on restaurants that seem appealing to them, or
+									swipe left if they are not interested.<br />
+
+									<strong>Languages:</strong> React Native<br />
+									<strong>Tools:</strong> Yelp Fusion API, Atom, Yarn<br />
+									Personal Project
+								</div>
+								<div class="modal-footer">
+									<a href="https://github.com/stanlejk/FoodHunter" class="button githubLink" target="_blank">View on GitHub</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
 					<div class="modal fade" id="airhawkeyModal" tabindex="-1" role="dialog" aria-labelledby="airhawkeyModalLabel" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -249,12 +288,13 @@
 								</div>
 								<div class="modal-body">
 									<img src="images/projects/msl1.jpg" id="msl1" alt="" />
-									<img src="images/projects/msl2.jpg" id="msl2" alt="" />
-									<img src="images/projects/msl3.jpg" id="msl3" alt="" />
 									Marvel Super Languages is a web app that teaches languages to users by making visual associations with
 									Marvel comic illustrations. Users can take language-specific quizzes to learn key phrases and words and
-									check their progress for each language learned.<br /><br />
+									check their progress for each language learned.<br />
 
+									<img src="images/projects/msl2.jpg" id="msl2" alt="" />
+									<img src="images/projects/msl3.jpg" id="msl3" alt="" />
+									<br />
 									In addition, MSL utilizes DialogFlow to create an AI chatbot experience in which users can conversate
 									with their favorite Marvel Superheroes. Users can translate these conversations to the language of their
 									choice to reinforce their language learning. This was executed with the Google Cloud Translate API.
