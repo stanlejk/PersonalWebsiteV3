@@ -60,7 +60,7 @@ nav ul li a:hover {
         }
 }
 
-#reassuronMainImg, #msl1, #msl2, #msl3 {
+.projectImage {
     max-width: 80%;
     margin-left: 10%;
     margin-right: auto;

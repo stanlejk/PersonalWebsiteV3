@@ -1,6 +1,16 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112810626-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-112810626-1');
+		</script>
+
 		<title>Stanley J. Kim</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -157,7 +167,17 @@
 									on dating profiles, FoodHunter users swipe right on restaurants that seem appealing to them, or
 									swipe left if they are not interested.<br />
 
-									<img src="images/projects/foodhunter.jpg" id="msl1" alt="" />
+									<img src="images/projects/foodhunter.jpg" class="projectImage" alt="" />
+
+									<strong>Goals for this project:</strong> The next big goal I have for the project is to integrate
+									GPS technology to generate a stack of restaurant cards near the user's location. Currently, the
+									query to Yelp's API for restaurant information takes a fixed location, which would clearly not be
+									useful for users looking for restaurants in their respective areas. In addition, I want to add a
+									"saved restaurants" page so that users can view their "right-swiped" restaurants conveniently for
+									future reference. Lastly, although a very complex and effort-demanding task, I think a social network
+									functionality for the app would be really cool to implement. Users would be able to compare their
+									saved restaurants with those of their friends, and could message each other to go and try their
+									mutually saved restaurants together.<br /><br />
 
 									<strong>Languages:</strong> React Native<br />
 									<strong>Tools:</strong> Yelp Fusion API, Atom, Yarn<br />
@@ -218,7 +238,7 @@
 									</button>
 								</div>
 								<div class="modal-body">
-									<img src="images/projects/reassuronUI.jpg" id="reassuronMainImg" alt="" /><br />
+									<img src="images/projects/reassuronUI.jpg" class="projectImage" alt="" /><br />
 									Reassuron is a Google Chrome extension that protects users from distressing or offensive online
 									content, and offers to contact the user's loved ones when it senses the user is in a state of
 									mental distress. It also offers calming exercises and random inspirational quotes that can help
@@ -289,13 +309,13 @@
 									</button>
 								</div>
 								<div class="modal-body">
-									<img src="images/projects/msl1.jpg" id="msl1" alt="" />
+									<img src="images/projects/msl1.jpg" class="projectImage" alt="" />
 									Marvel Super Languages is a web app that teaches languages to users by making visual associations with
 									Marvel comic illustrations. Users can take language-specific quizzes to learn key phrases and words and
 									check their progress for each language learned.<br />
 
-									<img src="images/projects/msl2.jpg" id="msl2" alt="" />
-									<img src="images/projects/msl3.jpg" id="msl3" alt="" />
+									<img src="images/projects/msl2.jpg" class="projectImage" alt="" />
+									<img src="images/projects/msl3.jpg" class="projectImage" alt="" />
 									<br />
 									In addition, MSL utilizes DialogFlow to create an AI chatbot experience in which users can conversate
 									with their favorite Marvel Superheroes. Users can translate these conversations to the language of their
@@ -330,7 +350,7 @@
 									designed to generate five different course plans, each mapping out a unique arrangement of the
 									courses the student must take that will fulfill their specific graduation requirements.<br />
 
-									<img src="images/projects/scheduler.png" id="msl1" alt="" /><br />
+									<img src="images/projects/scheduler.png" class="projectImage" alt="" /><br />
 
 									The student can save their favorite course plans to reaccess it in future visits to the webpage or
 									regenerate five more schedules if they are unhappy with the first five. We utilized MySQL to save the
